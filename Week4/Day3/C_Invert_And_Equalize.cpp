@@ -16,7 +16,7 @@ int main()
         int cnt = 0;       
         for (int i = 0; i < n; i++) 
         {
-            if (i == 0 || s[i] != s[i - 1]) 
+            if (s[i] != s[i - 1]) 
             {
                 cnt++; 
             }
